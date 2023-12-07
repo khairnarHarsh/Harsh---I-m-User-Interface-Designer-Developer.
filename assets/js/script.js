@@ -111,6 +111,12 @@ function openmenu(){
   sidemenu.style.left ="0";
   
 }
+document.onclick = (function(e){
+   if(e.target.id !== "sidemenu" && e.target.id ==""){
+    sidemenu.style.left ="-170px" ;
+    console.log(e.target.id)
+   }
+})
 
 
 // for sending email ************
@@ -153,12 +159,9 @@ workhorizon.forEach((item, i) => {
   
   }, 5000);
 
-   
-
-
-  // flavoursContainer.scrollLeft !== flavoursScrollWidth
-  
 });
+
+
 
 
 
