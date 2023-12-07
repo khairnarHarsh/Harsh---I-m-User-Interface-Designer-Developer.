@@ -1863,6 +1863,7 @@ textarea.input-field {
   }
 
   .small-nav-bar {
+    /* height: 100vh; */
     background-color: #ff004F;
     transition: all 0.5s ease;
     z-index: 99;
@@ -1881,7 +1882,7 @@ textarea.input-field {
     top: 0;
     left: -170px;
     width: 170px;
-    height: 100vh;
+    height: 200vh;
     padding-top: 50px;
     justify-content: center;
   }
